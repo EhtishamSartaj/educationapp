@@ -1,6 +1,10 @@
 #!/bin/bash
 
-sudo rm -rf /var/www/educationapp/*.html
-sudo cp -r . /var/www/educationapp/
-ls -ltr /var/www/educationapp/
+app = educationapp
+
+git clone https://github.com/EhtishamSartaj/$app.git
+cd $app
+sudo rm -rf /var/www/$app/*.html
+sudo cp -r . /var/www/$app/
+ls -ltr /var/www/$app/
 
