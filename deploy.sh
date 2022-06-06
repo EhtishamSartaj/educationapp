@@ -1,6 +1,6 @@
 #!/bin/bash
 
-app = educationapp
+app=educationapp
 
 git clone https://github.com/EhtishamSartaj/$app.git
 cd $app
